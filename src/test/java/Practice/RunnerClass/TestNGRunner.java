@@ -9,6 +9,8 @@ import io.cucumber.testng.CucumberOptions;
 tags = "@1",
 plugin = {"pretty",
         "html:target/cucumber.html",
-        "json:target/cucumber.json"})
+        "json:target/cucumber.json"
+},
+dryRun = false)
 public class TestNGRunner extends AbstractTestNGCucumberTests {
 }
